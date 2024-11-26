@@ -1,5 +1,5 @@
 # Quizlet Flashcard Generator Chatbot
-### Sofia Toropova, Aiden Dever
+### Created By: Sofia Toropova, Aiden Dever
 
 This chatbot helps users by generating a set of flashcards from text supplied by the user that can be imported into Quizlet.
 
