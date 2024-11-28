@@ -1,0 +1,6 @@
+
+Flashcards:
+Chapter, A main division of a book, typically with a number or title
+Distinction, A difference or contrast between similar things or people
+Test error rate, The percentage of incorrect predictions made by a model on new data
+Training error rate, The percentage of incorrect predictions made by a model on the data it was trained on
