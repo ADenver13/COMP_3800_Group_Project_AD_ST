@@ -35,25 +35,26 @@ This chatbot helps users by generating a set of flashcards from text supplied by
    ```
 3. **.env**
   In order to use the OPENAI API and Langchain, API keys are required. These will have to be set in a .env file in the format below:
-  ```bash
-  LANGCHAIN_API_KEY = 'KEY_HERE'
-  OPENAI_API_KEY = 'KEY_HERE'
-  ```
-After this, you can run all code inside the Jupyter Notebook.
+    ```bash
+    LANGCHAIN_API_KEY = 'KEY_HERE'
+    OPENAI_API_KEY = 'KEY_HERE'
+    ```
+  After this, you can run all code inside the Jupyter Notebook.
 
 ## Usage
   The chatbot can be run just like any other Jupyter Notebook.
 
 ## Tips
-  - The bot does have a tendency to hallucinate, as do all LLMs. This can impact your flashcards, particularly the additional reccomendations not found in the text. This feature can be turned off.
+  - The bot does have a tendency to hallucinate, as do all LLMs. This can impact your flashcards, particularly the additional reccomendations not found in the text. If you notice a lot of issues with reccomendations, you may want to start over.
+  - If the format is incorrect, either try again or feed the input into Quizlet when first creating the set. Quizlet has the ability to automatically parse and correct any errors from this agent.
   - Currently, the bot wil tell you what it's thinking and try to rationalize decisions to you. This can be removed by setting verbose=False in the following code:
-   ```python
-   agent_executor = initialize_agent(
-    tools=tools,
-    llm=OpenAI(temperature=0.4), #Could use some adjusting
-    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-    verbose=True
-   )
-   ```
+    ```python
+    agent_executor = initialize_agent(
+      tools=tools,
+      llm=OpenAI(temperature=0.4), #Could use some adjusting
+      agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+      verbose=True
+    )
+    ```
 
    
