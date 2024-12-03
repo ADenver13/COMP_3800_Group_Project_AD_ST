@@ -1,0 +1,12 @@
+
+
+FLASHCARDS:
+Shoot,The stem of a plant that is just beginning to grow; it connects the roots and the leaves and is the pathway for nutrients to move through the plant.
+Buds,The developing part of a plant that will grow into leaves, additional stems, or flowers.
+Terminal bud,Bud that forms at the tip of a stem.
+Lateral bud,A bud that forms along the side of a stem.
+Bulb,A large underground bud that can produce new plants.
+Bud scales,Special leaves that protect lateral buds on certain plants.
+Axillary bud,A bud that forms in the axil of a leaf, which can develop into a lateral branch or flower.
+Node,The point on a stem where a leaf is attached.
+Internode,The section of a stem between two nodes.
